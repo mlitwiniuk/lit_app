@@ -49,3 +49,7 @@ gem "factory_girl_rails", ">= 4.1.0", :group => [:development, :test]
 gem "bootstrap-sass", ">= 2.2.2.0"
 gem "devise", ">= 2.1.2"
 gem "simple_form", ">= 2.0.4"
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "figaro", ">= 0.5.0"
+gem "better_errors", ">= 0.3.2", :group => :development
+gem "binding_of_caller", ">= 0.6.8", :group => :development
