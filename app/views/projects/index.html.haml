@@ -1,0 +1,18 @@
+%h1 Listing projects
+
+%table
+  %tr
+    %th Name
+    %th
+    %th
+    %th
+
+  - @projects.each do |project|
+    %tr
+      %td= link_to project.name, project
+      %td= link_to t('litapp.common.edit', :default=>'Edit'), edit_project_path(project)
+      %td= link_to t('litapp.common.delete', :default=>'Delete'), project, method: :delete, data: { confirm: t('litapp.common.are_you_sure?', :default=>'Are you sure?')}
+
+%br
+
+= link_to t('.new', :default=>'New project'), new_project_path

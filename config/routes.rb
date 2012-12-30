@@ -1,4 +1,8 @@
 LitApp::Application.routes.draw do
+  mount Lit::Engine => "/lit"
+  resources :projects
+
+
   authenticated :user do
     root :to => 'home#index'
   end
