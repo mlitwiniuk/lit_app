@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/prograils/lit.git
-  revision: 20f17eb33d343a3a6aa7a721adb0c3e8995ecfc9
+  revision: 9f83b158d259eea30d5215b6a60805c60fdb44c7
   specs:
-    lit (0.0.2)
+    lit (0.0.2.1)
       bootstrap-sass (~> 2.1)
       haml
       jquery-rails
