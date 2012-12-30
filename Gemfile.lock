@@ -1,13 +1,12 @@
-PATH
-  remote: ~/Sites/r31/gems/lit/
+GIT
+  remote: git://github.com/prograils/lit.git
+  revision: 0f62eb6d9a2934472a0ce678a4dc8ce1235357d8
   specs:
     lit (0.0.1)
       bootstrap-sass (~> 2.1)
       haml
       jquery-rails
-      kaminari
       rails (> 3.1.0)
-      ransack
       sass-rails (~> 3.1)
 
 GEM
