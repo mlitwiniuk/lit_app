@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/prograils/lit.git
-  revision: 0910a709c5092f8b20d3a7f8e321812637474e9e
+  revision: 5d87054af7997942c8c245ac038a91da0dd5abd2
   specs:
     lit (0.0.1)
       bootstrap-sass (~> 2.1)
