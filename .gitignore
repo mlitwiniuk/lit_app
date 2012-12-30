@@ -79,3 +79,7 @@ pickle-email-*.html
 
 .powrc
 .rvmrc
+
+config/deploy.rb
+config/unicorn.rb
+

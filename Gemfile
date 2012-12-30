@@ -28,3 +28,4 @@ gem "lit", :path=>"~/Sites/r31/gems/lit/"
 gem "redis"
 gem "ransack"
 gem "kaminari"
+gem "capistrano", :group=>:development
